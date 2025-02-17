@@ -1,13 +1,15 @@
 name: boing_boot
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: A framework for building web applications in Dart based on the Spring Boot framework.
+version: 0.0.1
+repository: https://github.com/evandersondev/boing_boot
 
 environment:
   sdk: ^3.7.0
 
 # Add regular dependencies here.
 dependencies:
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
   # path: ^1.8.0
 
 dev_dependencies:
